@@ -1,0 +1,9 @@
+services:
+
+  java:
+    image: openjdk:22
+    container_name: java_container
+    volumes:
+      - .:/app
+    working_dir: /app
+    tty: true

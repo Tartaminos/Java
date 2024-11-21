@@ -76,5 +76,32 @@ class BasicSintax {
 
 
 
+/*
+    Modificadores de acesso
+
+    servem para delimitar o tipo de acesso ao scopo, por exemplo, um modificador public permite acesso de métodos de fora da classe,
+    enquanto o private permite acesso somente da propria classe, o protected por outro lado nao permite acesso de fora do pacote
+
+    _______________________________________________________________________________________________________
+    | Modificador | Visivel na classe | Visivel no pacote | Visivel na subclasse | Visivel fora do pacote |
+    | public      |         Sim       |         Sim       |         Sim          |          Sim           |
+    |   protect   |         Sim       |        Sim        |         Sim          | Não(exceto por herança)|
+    |  default    |         Sim       |       Sim         |         Não          |        Não             |
+    |  private    |         Sim       |       Não         |         Não          |        Não             |
+    -------------------------------------------------------------------------------------------------------
+
+    alem disso podemos tipar metodos com outros modificadores, static, void, final, native 
+
+    STATIC - pertencente a classe, faz com que nao seja necessario instanciar
+
+    VOID - indica que o metodo nao espera nenhum valor de retorno, por exemplo um metodo de log
+
+    NATIVE - indica que o método é implementado fora do java, por exemplo em outra linguagem, biblioteca ou funções do SO
+
+    SYNCHRONIZED - usado para indicar que o metodo deve ser executado por apenas uma thread, excelente para problemas de concorrencia
+
+    VOLATILE - usado para garantir que o valor da variavel seja sempre lido na memoria RAM e não no CACHE da cpu
+
+*/
 
 }

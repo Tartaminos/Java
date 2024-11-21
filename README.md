@@ -4,14 +4,14 @@
 
 ### Tópicos para Estudo
 - [x] Instalação do JDK e configuração do ambiente
-- [ ] Sintaxe básica do Java
-- [ ] Tipos de dados primitivos e operadores
-- [ ] Estruturas de controle (`if`, `switch`, loops)
-- [ ] Arrays e Strings
+- [x] Sintaxe básica do Java
+- [x] Tipos de dados primitivos e operadores
+- [x] Estruturas de controle (`if`, `switch`, loops)
+- [x] Arrays e Strings
 
 ### Prática
-- [ ] Escrever programas simples que utilizem estruturas de controle
-- [ ] Manipular arrays e strings em pequenos projetos
+- [x] Escrever programas simples que utilizem estruturas de controle
+- [x] Manipular arrays e strings em pequenos projetos
 
 ---
 
